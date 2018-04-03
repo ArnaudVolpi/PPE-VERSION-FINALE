@@ -1,0 +1,17 @@
+.container{
+    padding-bottom: 100px;
+}
+
+/*--- Input table ---*/
+input[type=text]{
+    border-bottom: 0px solid #bdbdbd;
+}
+input[type=text]:focus:not([readonly]){
+     border-bottom: 0.5px solid #4285F4;
+}
+input, button, submit { border:none; } 
+button {
+    border: none;
+  padding: 0;
+  background: none;
+}
